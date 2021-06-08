@@ -34,6 +34,7 @@ body {
 .side-nav .logo {
     background-color: #233245;
     color: #fff;
+    opacity: 90%;
 }
 
 .header .logo {
@@ -117,6 +118,10 @@ span:after {
     position: relative;
 }
 
+.side-nav ul li:hover {
+    background-color: #566b86;
+}
+
 .side-nav ul li.active:before {
     content: '';
     position: absolute;
@@ -129,6 +134,7 @@ span:after {
 
 .side-nav ul li a {
     color: #fff;
+    opacity: 87%;
     display: block;
     text-decoration: none;
 }
