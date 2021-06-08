@@ -113,13 +113,8 @@ span:after {
 }
 
 .side-nav ul li {
-    padding: 16px 16px;
     border-bottom: 1px solid #3c506a;
     position: relative;
-}
-
-.side-nav ul li:hover {
-    background-color: #566b86;
 }
 
 .side-nav ul li.active:before {
@@ -133,10 +128,15 @@ span:after {
 }
 
 .side-nav ul li a {
+    padding: 16px;
     color: #fff;
     opacity: 87%;
     display: block;
     text-decoration: none;
+}
+
+.side-nav ul li a:hover {
+    background-color: #566b86;
 }
 
 .side-nav ul li i {
